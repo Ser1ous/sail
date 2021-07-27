@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Sail;
+namespace EvolutionCMS\Salo;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Sail\Console\InstallCommand;
-use Laravel\Sail\Console\PublishCommand;
+use EvolutionCMS\Salo\Console\InstallCommand;
+use EvolutionCMS\Salo\Console\PublishCommand;
 
-class SailServiceProvider extends ServiceProvider implements DeferrableProvider
+class SaloServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
      * Bootstrap any application services.

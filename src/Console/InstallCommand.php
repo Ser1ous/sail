@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sail\Console;
+namespace EvolutionCMS\Salo\Console;
 
 use Illuminate\Console\Command;
 

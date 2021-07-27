@@ -1,5 +1,5 @@
 {
-    "name": "laravel/sail",
+    "name": "evolution-cms/salo",
     "description": "Docker files for running a basic Laravel application.",
     "keywords": ["laravel", "docker"],
     "license": "MIT",
@@ -24,7 +24,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Laravel\\Sail\\": "src/"
+            "EvolutionCMS\\Salo\\": "src/"
         }
     },
     "extra": {
@@ -33,7 +33,7 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Sail\\SailServiceProvider"
+                "EvolutionCMS\\Salo\\SaloServiceProvider"
             ]
         }
     },
